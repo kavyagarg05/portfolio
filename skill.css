@@ -1,0 +1,103 @@
+body{
+    background: url('https://us.123rf.com/450wm/vimvertigo/vimvertigo1603/vimvertigo160300425/54220086-stack-of-colorful-books-grungy-blue-background-free-copy-space-vintage-old-hardback-books-on-wooden-.jpg?ver=6') no-repeat;
+    background-size: cover;
+}
+#navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar::before{
+    content: "";
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 10%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 12px 20px;
+    border-radius: 23px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color: rgb(41, 41, 68);
+    background-color: rgb(166, 166, 192);
+    cursor: pointer;
+}
+
+.primary{
+    font-family: 'Bree Serif', serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#skill-set ul{
+    display: flex;
+    flex-direction: column;
+}
+
+#skill-set::before{
+    content: "";
+    top: 0px;
+    left: 0px;
+    height: 10%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+#skill-set ul li{
+    list-style:disc;
+    font-size: 1.3rem;
+    font-family: 'Bree Serif', serif;
+}
+
+#skill-set ul li a{
+    color: white;
+    display: block;
+    padding: 12px 20px;
+    border-radius: 23px;
+    text-decoration: none;
+}
+#a:hover
+{
+   box-shadow: 3px 3px 3px black;
+}
+#b:hover
+{
+   box-shadow: 3px 3px 3px black;
+}
+#c:hover
+{
+   box-shadow: 3px 3px 3px black;
+}
+#d:hover
+{
+   box-shadow: 3px 3px 3px black;
+}
+#e:hover
+{
+   box-shadow: 3px 3px 3px black;
+}
+#f:hover
+{
+   box-shadow: 3px 3px 3px black;
+}
+#g:hover
+{
+   box-shadow: 3px 3px 3px black;
+}

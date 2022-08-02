@@ -1,0 +1,67 @@
+body{
+    background: url('ss.jpg') no-repeat;
+    background-size: cover;
+}
+#navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 10%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 12px 20px;
+    border-radius: 23px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color: rgb(41, 41, 68);
+    background-color: rgb(166, 166, 192);
+    cursor: pointer;
+}
+
+
+
+#education .box{
+    text-align: center;
+    margin-left:12px;
+    padding: 12px;
+    height: 250px;
+    transition-duration: 1s;
+}
+
+#education .box:hover{
+    transform: scale(1.1);
+}
+
+.h-secondary{
+    font-family: 'Bree Serif', serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.center{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
